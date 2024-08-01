@@ -1,0 +1,1 @@
+﻿New-AzNetworkSecurityRuleConfig -Name AllowICMP -Protocol Icmp -Direction Inbound -Priority 1000 -SourceAddressPrefix * -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange * -Access Allow
